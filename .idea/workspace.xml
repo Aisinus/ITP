@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -29,7 +32,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b9face-33b1-43ee-a154-b0158365b0a6" name="Default Changelist" comment="" />
+    <list default="true" id="d0b9face-33b1-43ee-a154-b0158365b0a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DriverGateway.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DriverGateway.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PassengerGateway.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PassengerGateway.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITP.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ITP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ITP.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ITP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ITP.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ITP.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ITP.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ITP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ITP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +75,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qledRUg4uEx2kAyeNTlP7Pt6Dp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +86,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Homework4_Daniil_Okrug" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunManager">
     <configuration name="ITP" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITP" TARGET_NAME="ITP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ITP" RUN_TARGET_NAME="ITP">
@@ -78,6 +116,10 @@
       <option name="presentableId" value="Default" />
       <updated>1617658690836</updated>
       <workItem from="1617658692622" duration="53000" />
+      <workItem from="1617804068294" duration="183000" />
+      <workItem from="1617980821972" duration="10000" />
+      <workItem from="1618411407823" duration="11465000" />
+      <workItem from="1618661014048" duration="2936000" />
     </task>
     <servers />
   </component>
@@ -94,24 +136,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1617658745401">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618411633087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617658745401" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1617658745401">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618411633087" />
+    <state width="1493" height="37" key="GridCell.Tab.0.bottom" timestamp="1618663981428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617658745401" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1617658745401">
+    <state width="1493" height="37" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618663981428" />
+    <state width="1493" height="37" key="GridCell.Tab.0.center" timestamp="1618663981428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617658745401" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1617658745401">
+    <state width="1493" height="37" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618663981428" />
+    <state width="1493" height="37" key="GridCell.Tab.0.left" timestamp="1618663981428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617658745401" />
+    <state width="1493" height="37" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618663981428" />
+    <state width="1493" height="37" key="GridCell.Tab.0.right" timestamp="1618663981428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618663981428" />
+    <state width="1493" height="45" key="GridCell.Tab.1.bottom" timestamp="1618430875722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="45" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618430875722" />
+    <state width="1493" height="45" key="GridCell.Tab.1.center" timestamp="1618430875722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="45" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618430875722" />
+    <state width="1493" height="45" key="GridCell.Tab.1.left" timestamp="1618430875722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="45" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618430875722" />
+    <state width="1493" height="45" key="GridCell.Tab.1.right" timestamp="1618430875722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="45" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618430875722" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1618429061660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618429061660" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617658734779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

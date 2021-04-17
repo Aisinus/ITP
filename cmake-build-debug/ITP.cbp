@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/DriverGateway.cpp">
+			<Option target="ITP"/>
+		</Unit>
+		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/DriverGateway.h">
+			<Option target="ITP"/>
+		</Unit>
+		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/Order.cpp">
+			<Option target="ITP"/>
+		</Unit>
+		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/Order.h">
+			<Option target="ITP"/>
+		</Unit>
+		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/PassengerGateway.cpp">
+			<Option target="ITP"/>
+		</Unit>
+		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/PassengerGateway.h">
+			<Option target="ITP"/>
+		</Unit>
 		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/main.cpp">
 			<Option target="ITP"/>
 		</Unit>

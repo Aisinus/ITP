@@ -127,6 +127,87 @@ ITP\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\build
 .PHONY : ITP\fast
 
+DriverGateway.obj: DriverGateway.cpp.obj
+
+.PHONY : DriverGateway.obj
+
+# target to build an object file
+DriverGateway.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\DriverGateway.cpp.obj
+.PHONY : DriverGateway.cpp.obj
+
+DriverGateway.i: DriverGateway.cpp.i
+
+.PHONY : DriverGateway.i
+
+# target to preprocess a source file
+DriverGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\DriverGateway.cpp.i
+.PHONY : DriverGateway.cpp.i
+
+DriverGateway.s: DriverGateway.cpp.s
+
+.PHONY : DriverGateway.s
+
+# target to generate assembly for a file
+DriverGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\DriverGateway.cpp.s
+.PHONY : DriverGateway.cpp.s
+
+Order.obj: Order.cpp.obj
+
+.PHONY : Order.obj
+
+# target to build an object file
+Order.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\Order.cpp.obj
+.PHONY : Order.cpp.obj
+
+Order.i: Order.cpp.i
+
+.PHONY : Order.i
+
+# target to preprocess a source file
+Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\Order.cpp.i
+.PHONY : Order.cpp.i
+
+Order.s: Order.cpp.s
+
+.PHONY : Order.s
+
+# target to generate assembly for a file
+Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\Order.cpp.s
+.PHONY : Order.cpp.s
+
+PassengerGateway.obj: PassengerGateway.cpp.obj
+
+.PHONY : PassengerGateway.obj
+
+# target to build an object file
+PassengerGateway.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\PassengerGateway.cpp.obj
+.PHONY : PassengerGateway.cpp.obj
+
+PassengerGateway.i: PassengerGateway.cpp.i
+
+.PHONY : PassengerGateway.i
+
+# target to preprocess a source file
+PassengerGateway.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\PassengerGateway.cpp.i
+.PHONY : PassengerGateway.cpp.i
+
+PassengerGateway.s: PassengerGateway.cpp.s
+
+.PHONY : PassengerGateway.s
+
+# target to generate assembly for a file
+PassengerGateway.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ITP.dir\PassengerGateway.cpp.s
+.PHONY : PassengerGateway.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +244,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ITP
+	@echo ... DriverGateway.obj
+	@echo ... DriverGateway.i
+	@echo ... DriverGateway.s
+	@echo ... Order.obj
+	@echo ... Order.i
+	@echo ... Order.s
+	@echo ... PassengerGateway.obj
+	@echo ... PassengerGateway.i
+	@echo ... PassengerGateway.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

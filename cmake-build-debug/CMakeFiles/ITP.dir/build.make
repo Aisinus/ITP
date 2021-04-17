@@ -80,17 +80,80 @@ CMakeFiles\ITP.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ITP.dir\main.cpp.s /c C:\Users\xxxau\Desktop\HW4\ITP\main.cpp
 <<
 
+CMakeFiles\ITP.dir\PassengerGateway.cpp.obj: CMakeFiles\ITP.dir\flags.make
+CMakeFiles\ITP.dir\PassengerGateway.cpp.obj: ..\PassengerGateway.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ITP.dir/PassengerGateway.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ITP.dir\PassengerGateway.cpp.obj /FdCMakeFiles\ITP.dir\ /FS -c C:\Users\xxxau\Desktop\HW4\ITP\PassengerGateway.cpp
+<<
+
+CMakeFiles\ITP.dir\PassengerGateway.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP.dir/PassengerGateway.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\ITP.dir\PassengerGateway.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xxxau\Desktop\HW4\ITP\PassengerGateway.cpp
+<<
+
+CMakeFiles\ITP.dir\PassengerGateway.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP.dir/PassengerGateway.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ITP.dir\PassengerGateway.cpp.s /c C:\Users\xxxau\Desktop\HW4\ITP\PassengerGateway.cpp
+<<
+
+CMakeFiles\ITP.dir\DriverGateway.cpp.obj: CMakeFiles\ITP.dir\flags.make
+CMakeFiles\ITP.dir\DriverGateway.cpp.obj: ..\DriverGateway.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ITP.dir/DriverGateway.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ITP.dir\DriverGateway.cpp.obj /FdCMakeFiles\ITP.dir\ /FS -c C:\Users\xxxau\Desktop\HW4\ITP\DriverGateway.cpp
+<<
+
+CMakeFiles\ITP.dir\DriverGateway.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP.dir/DriverGateway.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\ITP.dir\DriverGateway.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xxxau\Desktop\HW4\ITP\DriverGateway.cpp
+<<
+
+CMakeFiles\ITP.dir\DriverGateway.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP.dir/DriverGateway.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ITP.dir\DriverGateway.cpp.s /c C:\Users\xxxau\Desktop\HW4\ITP\DriverGateway.cpp
+<<
+
+CMakeFiles\ITP.dir\Order.cpp.obj: CMakeFiles\ITP.dir\flags.make
+CMakeFiles\ITP.dir\Order.cpp.obj: ..\Order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ITP.dir/Order.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ITP.dir\Order.cpp.obj /FdCMakeFiles\ITP.dir\ /FS -c C:\Users\xxxau\Desktop\HW4\ITP\Order.cpp
+<<
+
+CMakeFiles\ITP.dir\Order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP.dir/Order.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\ITP.dir\Order.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xxxau\Desktop\HW4\ITP\Order.cpp
+<<
+
+CMakeFiles\ITP.dir\Order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP.dir/Order.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ITP.dir\Order.cpp.s /c C:\Users\xxxau\Desktop\HW4\ITP\Order.cpp
+<<
+
 # Object files for target ITP
 ITP_OBJECTS = \
-"CMakeFiles\ITP.dir\main.cpp.obj"
+"CMakeFiles\ITP.dir\main.cpp.obj" \
+"CMakeFiles\ITP.dir\PassengerGateway.cpp.obj" \
+"CMakeFiles\ITP.dir\DriverGateway.cpp.obj" \
+"CMakeFiles\ITP.dir\Order.cpp.obj"
 
 # External object files for target ITP
 ITP_EXTERNAL_OBJECTS =
 
 ITP.exe: CMakeFiles\ITP.dir\main.cpp.obj
+ITP.exe: CMakeFiles\ITP.dir\PassengerGateway.cpp.obj
+ITP.exe: CMakeFiles\ITP.dir\DriverGateway.cpp.obj
+ITP.exe: CMakeFiles\ITP.dir\Order.cpp.obj
 ITP.exe: CMakeFiles\ITP.dir\build.make
 ITP.exe: CMakeFiles\ITP.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ITP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ITP.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ITP.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ITP.dir\objects1.rsp @<<
  /out:ITP.exe /implib:ITP.lib /pdb:C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\ITP.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

@@ -1,0 +1,16 @@
+Aida Abulin
+5.0
+cash
+3
+00:20:10
+3
+4
+ECONOMY
+200
+00:10:10
+3
+3
+ECONOMY
+200
+
+
