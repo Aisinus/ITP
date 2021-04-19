@@ -4,106 +4,106 @@
 	<Project>
 		<Option title="ITP"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug"/>
+				<Option working_dir="/home/aisen/ITP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug"/>
+				<Option working_dir="/home/aisen/ITP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ITP">
-				<Option output="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug/ITP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 ITP"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ITP/fast">
-				<Option output="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug/ITP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 ITP/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug"/>
+				<Option working_dir="/home/aisen/ITP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\xxxau\Desktop\HW4\ITP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITP">
+				<Option output="/home/aisen/ITP/cmake-build-debug/ITP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aisen/ITP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITP"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITP/fast">
+				<Option output="/home/aisen/ITP/cmake-build-debug/ITP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aisen/ITP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITP/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aisen/ITP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/DriverGateway.cpp">
+		<Unit filename="/home/aisen/ITP/DriverGateway.cpp">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/DriverGateway.h">
+		<Unit filename="/home/aisen/ITP/DriverGateway.h">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/Order.cpp">
+		<Unit filename="/home/aisen/ITP/Order.cpp">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/Order.h">
+		<Unit filename="/home/aisen/ITP/Order.h">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/PassengerGateway.cpp">
+		<Unit filename="/home/aisen/ITP/PassengerGateway.cpp">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/PassengerGateway.h">
+		<Unit filename="/home/aisen/ITP/PassengerGateway.h">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/main.cpp">
+		<Unit filename="/home/aisen/ITP/main.cpp">
 			<Option target="ITP"/>
 		</Unit>
-		<Unit filename="C:/Users/xxxau/Desktop/HW4/ITP/CMakeLists.txt">
+		<Unit filename="/home/aisen/ITP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xxxau/Desktop/HW4/ITP/DriverGateway.cpp" "C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug/CMakeFiles/ITP.dir/DriverGateway.cpp.obj"
-  "C:/Users/xxxau/Desktop/HW4/ITP/Order.cpp" "C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug/CMakeFiles/ITP.dir/Order.cpp.obj"
-  "C:/Users/xxxau/Desktop/HW4/ITP/PassengerGateway.cpp" "C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug/CMakeFiles/ITP.dir/PassengerGateway.cpp.obj"
-  "C:/Users/xxxau/Desktop/HW4/ITP/main.cpp" "C:/Users/xxxau/Desktop/HW4/ITP/cmake-build-debug/CMakeFiles/ITP.dir/main.cpp.obj"
+  "/home/aisen/ITP/DriverGateway.cpp" "/home/aisen/ITP/cmake-build-debug/CMakeFiles/ITP.dir/DriverGateway.cpp.o"
+  "/home/aisen/ITP/Order.cpp" "/home/aisen/ITP/cmake-build-debug/CMakeFiles/ITP.dir/Order.cpp.o"
+  "/home/aisen/ITP/PassengerGateway.cpp" "/home/aisen/ITP/cmake-build-debug/CMakeFiles/ITP.dir/PassengerGateway.cpp.o"
+  "/home/aisen/ITP/main.cpp" "/home/aisen/ITP/cmake-build-debug/CMakeFiles/ITP.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

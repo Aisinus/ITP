@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ITP.dir/DriverGateway.cpp.obj"
-  "CMakeFiles/ITP.dir/Order.cpp.obj"
-  "CMakeFiles/ITP.dir/PassengerGateway.cpp.obj"
-  "CMakeFiles/ITP.dir/main.cpp.obj"
-  "ITP.exe"
-  "ITP.exe.manifest"
-  "ITP.lib"
+  "CMakeFiles/ITP.dir/DriverGateway.cpp.o"
+  "CMakeFiles/ITP.dir/Order.cpp.o"
+  "CMakeFiles/ITP.dir/PassengerGateway.cpp.o"
+  "CMakeFiles/ITP.dir/main.cpp.o"
+  "ITP"
   "ITP.pdb"
 )
 

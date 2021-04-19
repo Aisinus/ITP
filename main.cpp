@@ -27,6 +27,7 @@ void Passenger_output(PassengerGateway* Passenger){
 
 int main() {
     vector<PassengerGateway*> Passengers;
+    vector<DriverGateway*> Driver;
     string line;
     bool check = true;
     ifstream users_input("User.txt");
@@ -76,11 +77,8 @@ int main() {
                 Passengers.push_back(newPassenger);
 
                 }else{
-                    ifstream newuser_input(line);
-                    string line2;
-                    if(newuser_input.is_open()){
 
-                    }
+
                     }
                 }
             }
